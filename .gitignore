@@ -1,0 +1,44 @@
+# Python 編譯文件
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 環境配置
+.env
+*.env
+
+# 虛擬環境
+.venv/
+env/
+venv/
+
+# 日誌文件
+*.log
+app.log
+
+# 操作系統文件
+.DS_Store
+Thumbs.db
+
+# IDE/編輯器配置文件
+.vscode/
+.idea/
+*.swp
+
+# 測試覆蓋率文件
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# 打包相關文件
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 忽略所有 .txt 文件
+*.txt
+
+# 忽略 config.json 文件
+config.json
